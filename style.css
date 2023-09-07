@@ -1,0 +1,80 @@
+@font-face {
+    font-family: myFont;
+    src: url(font.ttf);
+}
+
+@font-face {
+    font-family: bodyFont;
+    src: url(Poppins-Light.ttf);
+}
+
+
+.header {
+    font-family: myFont;
+}
+
+li, a{
+    font-family: myFont;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0px 20px;
+    background-color: rgba(24, 4, 97, 0.932);
+    
+}
+
+.links{
+    list-style: none;
+    
+}
+
+.links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.links li a{
+    transition: all 0.3 ease 0s;
+    text-decoration: none;
+}
+
+
+div.content{
+    
+    display: flex; 
+    justify-content: center;
+    background-color: rgb(76, 0, 253);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 1000px;
+    padding-left: 30px;
+}
+
+.textContent{
+    color: rgb(255, 255, 255);
+    font-family: bodyFont;
+    margin: auto;
+}
+
+img{
+    max-width: 300px;
+    max-height: 300px;
+    float: right;
+    border: 3px solid white;
+    margin: 20px;
+}
+
+body{
+    background-color: rgb(3, 3, 112);
+}
+
+.BettaImg{
+    display: inline-flexbox;
+}
